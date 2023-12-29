@@ -1,3 +1,6 @@
+# Virtual env
+py-venv-magicpost
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
