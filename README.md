@@ -62,14 +62,15 @@ flask --app main run --debug
 The server will be available at URL: [http://localhost:5000](http://localhost:5000)
 
 3. Initialize Database
-**Note:** This can only be done after you have done [2-run-back-end](Step 2)
+
+> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
 ```sh
 cd MagicPost/magic-post-be/
 flask --app main init-db
 flask --app main run-adhoc
 ```
-A small database file in ```instance/``` directory called ```magicpost.sqlite``` is initialized.
-The mock information, both generated manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
+Database file ```instance/magicpost.sqlite``` is initialized.
+The mock information, which are specified in [schema.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/schema.sql) and [adhoc.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/adhoc.sql), are generated either manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
 
 ## How to use?
 
