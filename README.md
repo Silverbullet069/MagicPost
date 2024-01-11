@@ -105,5 +105,5 @@ According to [https://itest.com.vn/lects/webappdev/mockproj/magic-post.htm](Requ
 
 ## Contributors
 |Info|Role|Work|
-|---|---|---|
+|:---:|:---:|:---|
 |[Bui Huu Viet Hung](https://github.com/Silverbullet069)|Leader| Project manager, Full-stack developer (Architecture design, UI/UX design, REST API design, Database design), Documentation, Demo video|
