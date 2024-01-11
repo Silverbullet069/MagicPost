@@ -188,7 +188,7 @@ INSERT INTO role (name) VALUES ('cp_emp'); -- 5
 -- Password: 123456
 
 -- Senior Manager
-INSERT INTO user (username, pwdhash, name, role_id, supervisor_id) VALUES ('senior_mng', 'scrypt:32768:8:1$A9QlIkxohz04DSwQ$d2cf0d038409d33357e1c61b5bf949f450d8a987b5c6cf81c6a0e91c25bf14096eb8a0a79f7d8b9049dc141f1b6dce84a023bed21226bb52522851f5d6b25543', 1, 1, 1); -- 1, self-supervise (a workaround)
+INSERT INTO user (username, pwdhash, name, role_id, supervisor_id) VALUES ('senior_mng', 'scrypt:32768:8:1$A9QlIkxohz04DSwQ$d2cf0d038409d33357e1c61b5bf949f450d8a987b5c6cf81c6a0e91c25bf14096eb8a0a79f7d8b9049dc141f1b6dce84a023bed21226bb52522851f5d6b25543', 'V.H', 1, 1); -- 1, self-supervise (a workaround)
 
 -- Trade Point Managers -- 2 - 3 - 4 - 5 - 6
 INSERT INTO user (username, pwdhash, name, role_id, supervisor_id) VALUES ('tp_mng_01', 'scrypt:32768:8:1$5yFgMSmlmENhb4CW$25cbb78a169aa311079372ac60c4a98fa54386316b94d09053cd976c51d08395115503d2b80cb9148dd4abc67bca2537ed8015fea417fc1247f757e06300c5e1', 'John Doe #1', 2, 1); -- 2
