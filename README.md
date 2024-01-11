@@ -13,7 +13,7 @@
 ## Introduction
 > <u>_NOTE:_</u> This project used full English so Vietnamese terminologies like 'Điểm giao dịch', 'Điểm tập kết' are translated to 'Trading Point', 'Consolidation Point', respectively.
 
-![login.png](./docs/login.png)
+![login.png](./docs/login.png) ![dashboard.png](./docs/dashboard.png)
 
 This web application allows the MagicPost's Managers to manage their subordinates accounts, their assigned points (trading/consolidation). Employees can manage the flow of orders in/out of the points.
 
