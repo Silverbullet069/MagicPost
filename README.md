@@ -67,7 +67,7 @@ The server will be available at URL: [http://localhost:5000](http://localhost:50
 
 3. 	Initialize Database
 
-> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
+> **Note:** This can only be done after you have done **Step 2**
 		
 ```shell
 cd MagicPost/magic-post-be/
@@ -85,7 +85,7 @@ The mock information, which are specified in [schema.sql](https://github.com/Sil
 Use any client browsers to open [http://localhost:5173](http://localhost:5173).
 There you will see a login panel. There are 5 different accounts type that you can use, here are the credentials and their roles:
 
-|No.#|Username|Password|Role|
+|No.|Username|Password|Role|
 |---|---|---|---|
 |1|senior_mng|123456|Senior Managers|
 |2|tp_mng_01|123456|Trade Point Managers|
