@@ -1,0 +1,13 @@
+[project]
+name = "magic-post-be"
+version = "1.0.0"
+description = "The Backend of MagicPost - a website for a delivary compnany."
+dependencies = [
+  "flask",
+  "flask-cors",
+  "flask-session"
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
