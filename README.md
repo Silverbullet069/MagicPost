@@ -1,6 +1,8 @@
 # MagicPost
 > A web app for managing internal affairs for a country-wide delivery company called Magic Post.
 
+Demo video: https://drive.google.com/file/d/1m1nurMsTBxp9j5pZzHNQC4sHwIiiC5Ny/view?usp=sharing
+
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
