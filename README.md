@@ -88,7 +88,7 @@ Use any client browsers to open [http://localhost:5173](http://localhost:5173).
 There you will see a login panel. There are 5 different accounts type that you can use, here are the credentials and their roles:
 
 |No.|Username|Password|Role|
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 |1|senior_mng|123456|Senior Managers|
 |2|tp_mng_01|123456|Trade Point Managers|
 |3|cp_mng_01|123456|Consolidation Point Managers|
