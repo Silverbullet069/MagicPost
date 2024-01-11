@@ -24,6 +24,7 @@ This web application allows the MagicPost's Managers to manage their subordinate
 - [**Python**](https://www.python.org/downloads/) (>=3.)
 
 ## Installation
+
 1. 	Clone the repository
 		```shell
 		git clone --depth 1 https://github.com/Silverbullet069/MagicPost.git
@@ -43,17 +44,18 @@ This web application allows the MagicPost's Managers to manage their subordinate
 		pip install -r requirements.txt
 		```
 
-		> <u>_NOTE:_</u> use ```.fish``` if you're using [Fish shell](https://github.com/fish-shell/fish-shell), ```.csh``` if you're using [C shell](https://en.wikipedia.org/wiki/C_shell)
+	> <u>_NOTE:_</u> use ```.fish``` if you're using [Fish shell](https://github.com/fish-shell/fish-shell), ```.csh``` if you're using [C shell](https://en.wikipedia.org/wiki/C_shell)
 
 ## Run
 
 1. 	Run Front-end 
+
 		```shell
 		cd MagicPost/magic-post-fe/
 		yarn run dev
 		```
 
-		The web app will be available at URL: [http://localhost:5173](http://localhost:5173)
+	The web app will be available at URL: [http://localhost:5173](http://localhost:5173)
 
 2. 	Run Back-end
 		```shell
@@ -61,11 +63,11 @@ This web application allows the MagicPost's Managers to manage their subordinate
 		flask --app main run --debug
 		```
 		
-		The server will be available at URL: [http://localhost:5000](http://localhost:5000)
+	The server will be available at URL: [http://localhost:5000](http://localhost:5000)
 
 3. 	Initialize Database
 
-		> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
+	> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
 		
 		```shell
 		cd MagicPost/magic-post-be/
@@ -73,9 +75,9 @@ This web application allows the MagicPost's Managers to manage their subordinate
 		flask --app main run-adhoc
 		```
 		
-		Database file ```instance/magicpost.sqlite``` is initialized.
+	Database file ```instance/magicpost.sqlite``` is initialized.
 		
-		The mock information, which are specified in [schema.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/schema.sql) and [adhoc.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/adhoc.sql), are generated either manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
+	The mock information, which are specified in [schema.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/schema.sql) and [adhoc.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/adhoc.sql), are generated either manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
 
 ## How to use?
 
