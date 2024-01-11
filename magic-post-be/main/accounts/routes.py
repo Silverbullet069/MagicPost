@@ -622,6 +622,8 @@ def delete_cp_emp(mng_id, emp_id):
     try:
         get_db().execute("DELETE FROM user WHERE id = ? AND supervisor_id = ?", (emp_id, mng_id, ))
 
+        get_db().commit()  # Missing this line, always
+
         return {
             "status": "success",
             "data": {
