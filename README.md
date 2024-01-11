@@ -1,5 +1,5 @@
 # MagicPost
-> A web app for managing internal affais for a delivery company called Magic Post.
+> A web app for managing internal affairs for a country-wide delivery company called Magic Post.
 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -11,7 +11,7 @@
 7. [Contributors](#contributors)
 
 ## Introduction
-> <u>_NOTE:_</u> This project is being worked on using full English so Vietnamese terminologies like 'Điểm giao dịch', 'Điểm tập kết' are translated to 'Trading Point', 'Consolidation Point', respectively.
+> <u>_NOTE:_</u> This project used full English so Vietnamese terminologies like 'Điểm giao dịch', 'Điểm tập kết' are translated to 'Trading Point', 'Consolidation Point', respectively.
 
 ![login.png](./docs/login.png)
 
@@ -74,11 +74,11 @@ The mock information, both generated manually by hand or automatically using [Mo
 ## How to use?
 
 ### Login
-Use any client browsers to open [http://localhost:5173](http://localhost:5173)  
-There you will see a login panel
-There are 5 different accounts type that you can use, here are the credentials and their roles:
+Use any client browsers to open [http://localhost:5173](http://localhost:5173).
+There you will see a login panel. There are 5 different accounts type that you can use, here are the credentials and their roles:
 
 |No.#|Username|Password|Role|
+|---|---|---|---|
 |1|senior_mng|123456|Senior Managers|
 |2|tp_mng_01|123456|Trade Point Managers|
 |3|cp_mng_01|123456|Consolidation Point Managers|
@@ -93,8 +93,9 @@ After login successfully, you will be guided to a Dashboard. I've designed it st
 Currently there aren't any navigation link to redirect to client so if you want to use the Client features, head to [http://localhost:5173/client](http://localhost:5173/client)
 
 ## What's missing
-According to [https://itest.com.vn/lects/webappdev/mockproj/magic-post.htm](Project's Requirements), I've managed to implement Senior Managers, Trade/Consolidation Managers and Client required features. Trade/Consolidation Employees aren't finished.
+According to [https://itest.com.vn/lects/webappdev/mockproj/magic-post.htm](Requirements), I've managed to implement Senior Managers, Trade/Consolidation Managers and Client required features. Trade/Consolidation Employees aren't finished.
 
 ## Contributors
 |Info|Role|Work|
-|[Bui Huu Viet Hung](https://github.com/Silverbullet069)|Leader, Full-stack developer| Project manager, Architecture design, UI/UX design, REST API design, Database design, GitHub, Documentation, Demo video|
+|---|---|---|
+|[Bui Huu Viet Hung](https://github.com/Silverbullet069)|Leader| Project manager, Full-stack developer (Architecture design, UI/UX design, REST API design, Database design), Documentation, Demo video|
