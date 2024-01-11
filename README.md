@@ -24,53 +24,58 @@ This web application allows the MagicPost's Managers to manage their subordinate
 - [**Python**](https://www.python.org/downloads/) (>=3.)
 
 ## Installation
-1. Clone the repository
-```sh
-git clone --depth 1 https://github.com/Silverbullet069/MagicPost.git
-```
+1. 	Clone the repository
+		```shell
+		git clone --depth 1 https://github.com/Silverbullet069/MagicPost.git
+		```
 
-2. Install Front-end YARN dependencies
-```sh
-cd MagicPost/magic-post-fe/
-yarn install
-```
+2. 	Install Front-end YARN dependencies
+		```shell
+		cd MagicPost/magic-post-fe/
+		yarn install
+		```
 
-3. Install Back-end PIP requirements
-```sh
-cd MagicPost/magic-post-be/
-python3 -m venv py-magic-post-be
-source py-magic-post-be/bin/activate[.fish | .csh]
-pip install -r requirements.txt
-```
+3. 	Install Back-end PIP requirements
+		```shell
+		cd MagicPost/magic-post-be/
+		python3 -m venv py-magic-post-be
+		source py-magic-post-be/bin/activate[.fish | .csh]
+		pip install -r requirements.txt
+		```
 
-> <u>_NOTE:_</u> use ```.fish``` if you're using [Fish shell](https://github.com/fish-shell/fish-shell), ```.csh``` if you're using [C shell](https://en.wikipedia.org/wiki/C_shell)
+		> <u>_NOTE:_</u> use ```.fish``` if you're using [Fish shell](https://github.com/fish-shell/fish-shell), ```.csh``` if you're using [C shell](https://en.wikipedia.org/wiki/C_shell)
 
 ## Run
 
-1. Run Front-end 
-```sh
-cd MagicPost/magic-post-fe/
-yarn run dev
-```
-The web app will be available at URL: [http://localhost:5173](http://localhost:5173)
+1. 	Run Front-end 
+		```shell
+		cd MagicPost/magic-post-fe/
+		yarn run dev
+		```
 
-2. Run Back-end
-```sh
-cd MagicPost/magic-post-be/
-flask --app main run --debug
-```
-The server will be available at URL: [http://localhost:5000](http://localhost:5000)
+		The web app will be available at URL: [http://localhost:5173](http://localhost:5173)
 
-3. Initialize Database
+2. 	Run Back-end
+		```shell
+		cd MagicPost/magic-post-be/
+		flask --app main run --debug
+		```
+		
+		The server will be available at URL: [http://localhost:5000](http://localhost:5000)
 
-> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
-```sh
-cd MagicPost/magic-post-be/
-flask --app main init-db
-flask --app main run-adhoc
-```
-Database file ```instance/magicpost.sqlite``` is initialized.
-The mock information, which are specified in [schema.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/schema.sql) and [adhoc.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/adhoc.sql), are generated either manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
+3. 	Initialize Database
+
+		> **Note:** This can only be done after you have done [Step 2](2-run-back-end)
+		
+		```shell
+		cd MagicPost/magic-post-be/
+		flask --app main init-db
+		flask --app main run-adhoc
+		```
+		
+		Database file ```instance/magicpost.sqlite``` is initialized.
+		
+		The mock information, which are specified in [schema.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/schema.sql) and [adhoc.sql](https://github.com/Silverbullet069/MagicPost/blob/master/magic-post-be/main/adhoc.sql), are generated either manually by hand or automatically using [Mockaroo](https://www.mockaroo.com)
 
 ## How to use?
 
